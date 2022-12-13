@@ -1,0 +1,21 @@
+[
+    {
+      "SerialNumber":"1",
+     "EmployeeID":"1821079",
+      "firstName": "John",
+      "lastName": "Doe",
+      "studentEmail": "johndoe@example.com",
+      "BirthDate":"12/2/2001",
+      "JoiningDate":"26/09/2022"
+      
+    },
+    {
+      "SerialNumber":"2",
+      "EmployeeID":"182133",
+      "firstName": "Susmit",
+      "lastName": "Shrivastava",
+      "studentEmail": "test@example.com",
+      "BirthDate":"21/11/2022",
+      "JoiningDate":"26/09/2022"
+    }
+  ]

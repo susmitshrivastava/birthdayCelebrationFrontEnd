@@ -1,0 +1,47 @@
+.container{
+    text-align: center;
+}
+label{
+    text-align: justify;
+}
+button{
+    background: rgb(1, 29, 51);
+
+border-color: transparent;
+
+color: #fff;
+
+cursor: pointer;
+}
+.login-header {
+
+    background: rgb(12, 77, 129);
+    
+    padding: 20px;
+    
+    font-size: 1.4em;
+    
+    font-weight: normal;
+    
+    text-align: center;
+    
+    text-transform: uppercase;
+    
+    color: #fff;
+    
+    }
+    .login-container {
+
+        background: #ebebeb;
+        
+        padding: 12px;
+        
+        }
+        .container{
+            width: 400px;
+        
+            margin: 16px auto;
+            
+            font-size: 16px;
+        }
+    

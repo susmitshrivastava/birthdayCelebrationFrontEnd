@@ -1,0 +1,40 @@
+
+<div class="container">
+    <form [formGroup] = "profileForm" (ngSubmit) = "submit()" #profile ="ngForm" class="profile-container">
+    <mat-form-field>
+    <mat-label>PLease select your joining date</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName ="joiningDate" >
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker" ></mat-datepicker-toggle>
+    <mat-datepicker #picker disabled ="false"></mat-datepicker>
+    <mat-datepicker touchUi #picker></mat-datepicker>
+  </mat-form-field>
+  <pre></pre>
+
+
+
+
+
+    <mat-form-field>
+    <mat-label>PLease select birthday</mat-label>
+    <input matInput [matDatepicker]="picker1"  formControlName ="birthday" >
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker1" ></mat-datepicker-toggle >
+    <mat-datepicker #picker1 disabled ="false"></mat-datepicker>
+    <mat-datepicker touchUi #picker1></mat-datepicker>
+</mat-form-field>
+
+
+<pre></pre>
+
+<button type="button" style='margin-right:16px'  class="Cancel" (click)="cancel()">Cancel</button>
+
+
+<button type="submit" style='margin-right:16px' class="Submit">Submit</button>
+    </form>
+
+</div>
+
+
+
+    

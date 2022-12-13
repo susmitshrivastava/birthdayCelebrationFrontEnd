@@ -1,0 +1,42 @@
+
+<div class="container">
+    <h1 class="login-header">Please enter the below deatils to complete the registration</h1>
+    <form  #userForm ="ngForm" (ngSubmit) = "submit()" class="login-container"  >
+        <div class="form-group">
+
+         
+          
+            <label for="Firstname">Firstname</label><br>
+            <input type="text" name="firstname"  class="form-control is-invalid" [(ngModel)] ="usermodel.firstName" required #firstNameWarn ="ngModel">
+            <p class="alert" *ngIf="!firstNameWarn.valid && firstNameWarn.touched">First name is required</p>
+        </div>
+       
+        <pre></pre>
+        <div class="form-group">
+            <label for="Lastname">Lastname</label><br>
+            <input type="text" name="lastname" class="form-control" [(ngModel)] ="usermodel.lastName" required #lastNameWarn ="ngModel">
+            <p class="alert" *ngIf="!lastNameWarn.valid && lastNameWarn.touched">Last name is required</p>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="email">Email Address</label><br>
+            <input type="text" name="email" class="form-control" [(ngModel)] ="usermodel.email" required #emailWarn ="ngModel">
+            <p class="alert" *ngIf="!emailWarn.valid && emailWarn.touched">Email is required</p>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="email">Employee ID</label><br>
+            <input type="text" name="empId" class="form-control" [(ngModel)] ="usermodel.empId" required #empIdWarn ="ngModel">
+            <p class="alert" *ngIf="!empIdWarn.valid && empIdWarn.touched">Employee ID is required</p>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="password">password</label><br>
+            <input type="password" name="password" class="form-control" [(ngModel)]="usermodel.password" required #passwordWarn ="ngModel">
+            <p class="alert" *ngIf="!passwordWarn.valid && passwordWarn.touched">Password is required</p>
+        </div>
+        <pre></pre>
+        <button [disabled]="userForm.form.invalid" class="btn" type="submit">Signup</button>
+    </form>
+
+</div>

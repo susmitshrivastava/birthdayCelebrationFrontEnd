@@ -1,0 +1,66 @@
+<div class="center" >
+    <table mat-table [dataSource] ="dataSource" class="  center mat-elevation-z8">
+       <ng-container matColumnDef="SerialNumber">
+           <th mat-header-cell *matHeaderCellDef> Serial Number </th>
+           <td mat-cell *matCellDef="let element;let i = index;"> {{i + 1}} </td>
+         </ng-container>
+         <ng-container matColumnDef="empId">
+           <th mat-header-cell *matHeaderCellDef>EmployeeID </th>
+           <td mat-cell *matCellDef="let element">
+               <ng-container ng-click="birthdyWish(element.empId)">
+                   {{element.empId}}
+               </ng-container>
+               </td>
+              
+         </ng-container>
+       <ng-container matColumnDef="firstName" >
+         <th mat-header-cell *matHeaderCellDef> First Name </th>
+         <td mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+       </ng-container>
+     
+       <ng-container matColumnDef="lastName">
+         <th mat-header-cell *matHeaderCellDef> Last Name </th>
+         <td mat-cell *matCellDef="let element"> {{element.lastName}} </td>
+       </ng-container>
+     
+       <ng-container matColumnDef="email">
+         <th mat-header-cell *matHeaderCellDef>  Email Address </th>
+         <td mat-cell *matCellDef="let element"> {{element.email }} </td>
+       </ng-container>
+       <ng-container matColumnDef="BirthDate">
+         <th mat-header-cell *matHeaderCellDef> BirthDate </th>
+
+         <td mat-cell *matCellDef="let element"> {{element.empDetails !=null ? element.empDetails.birtDate : ""}} </td>
+       </ng-container> 
+       <ng-container matColumnDef="JoiningDate">
+        <th mat-header-cell *matHeaderCellDef> JoiningDate </th>
+        <td mat-cell *matCellDef="let element"> {{element.empDetails !=null ? element.empDetails.dateOfJoining : ""}} </td>
+      </ng-container> 
+
+    <ng-container matColumnDef="actions">
+     <th mat-header-cell  *matHeaderCellDef > Actions </th>
+     <td mat-cell *matCellDef="let row" >
+    <button mat-button  (click)="delete(row.email)">Delete</button>
+      </td>
+     </ng-container>
+     
+       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+       <tr mat-row *matRowDef="let row; columns: displayedColumns;"   class="underline-on-hover"></tr>
+     </table> 
+     <div class="center">
+   
+      <pre></pre>
+       
+       <p>
+       
+       <button (click)="logout()">
+       
+       Logout
+       
+       </button>
+       
+       </p>
+       
+      
+      </div>
+       </div>

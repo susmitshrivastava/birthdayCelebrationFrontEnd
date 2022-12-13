@@ -1,0 +1,36 @@
+.container{
+    width: 400px;
+
+    margin: 16px auto;
+    
+    font-size: 16px;
+}
+.Submit{
+    background: rgb(1, 29, 51);
+
+border-color: transparent;
+
+color: #fff;
+
+cursor: pointer;
+margin-right: 20px;
+}
+.profile-container {
+
+    background: #ebebeb;
+    
+    padding: 12px;
+    
+    }
+
+    .Cancel{
+        background: rgb(1, 29, 51);
+    
+    border-color: transparent;
+    
+    color: #fff;
+    
+    cursor: pointer;
+    margin-left: 20px;
+    
+    }

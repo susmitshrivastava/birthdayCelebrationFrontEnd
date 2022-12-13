@@ -1,0 +1,57 @@
+body {
+
+    background: #456;
+    
+    font-family: ‘Open Sans’, sans-serif;
+    
+    }
+
+.container{
+    width: 400px;
+
+    margin: 16px auto;
+    
+    font-size: 16px;
+}
+label{
+    text-align: justify;
+}
+.ng-invalid.ng-touched:not(form)  {
+    border: 1px solid red;
+  }
+
+  button{
+    background: rgb(1, 29, 51);
+
+border-color: transparent;
+
+color: #fff;
+
+cursor: pointer;
+  }
+ 
+    .login-container {
+
+        background: #ebebeb;
+        
+        padding: 12px;
+        
+        }
+        .login-header {
+
+            background: rgb(12, 77, 129);
+            
+            padding: 20px;
+            
+            font-size: 1.4em;
+            
+            font-weight: normal;
+            
+            text-align: center;
+            
+            text-transform: uppercase;
+            
+            color: #fff;
+            
+            }
+            

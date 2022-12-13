@@ -1,0 +1,51 @@
+[
+    {
+      "SerialNumber":"1",
+     "EmployeeID":"1821079",
+      "firstName": "John",
+      "lastName": "Doe",
+      "studentEmail": "johndoe@example.com",
+      "BirthDate":"12/2/2001"
+      
+    },
+    {
+      "SerialNumber":"4",
+      "EmployeeID":"182132",
+      "firstName": "Susmit",
+      "lastName": "Shrivastava",
+      "studentEmail": "test@example.com",
+      "BirthDate":"21/11/2022"
+    },
+    {
+      "SerialNumber":"5",
+      "EmployeeID":"182183",
+      "firstName": "dev",
+      "lastName": "Shri",
+      "studentEmail": "test@example.com",
+      "BirthDate":"10/11/2022"
+    },
+    {
+      "SerialNumber":"10",
+      "EmployeeID":"182173",
+      "firstName": "Danial",
+      "lastName": "thomas",
+      "studentEmail": "test@example.com",
+      "BirthDate":"05/02/2022"
+    },
+    {
+      "SerialNumber":"9",
+      "EmployeeID":"182103",
+      "firstName": "joe",
+      "lastName": "franklin",
+      "studentEmail": "test@example.com",
+      "BirthDate":"19/08/2022"
+    },
+    {
+      "SerialNumber":"8",
+      "EmployeeID":"192133",
+      "firstName": "Susmit",
+      "lastName": "Shrivastava",
+      "studentEmail": "test@example.com",
+      "BirthDate":"21/09/2022"
+    }
+  ]

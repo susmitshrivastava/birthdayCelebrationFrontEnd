@@ -1,0 +1,31 @@
+.center{
+    text-align:left;
+
+    margin-right: 200px;
+    margin-left: 100px;
+    
+}
+/* table {
+    width: 50%;
+   
+    min-width: 500px;
+  } */
+  
+  th.mat-header-cell {
+    text-align: center !important;
+    max-width: 100px;
+  }
+button{
+
+    background: rgb(1, 29, 51);
+    
+    border-color: transparent;
+    
+    color: #fff;
+    
+    cursor: pointer;
+    
+    }
+    .underline-on-hover:hover{
+        text-decoration: underline;
+    }
